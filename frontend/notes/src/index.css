@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  body{
+    background-color: rgba(220, 220, 220, 0.025);
+    overflow-x:hidden;
+  }
+}
+
+@layer components{
+  .input-box{
+    @apply w-full text-sm bg-transparent border-[2px] px-5 py-3 rounded mb-4 outline-none;
+  }
+  .btn-primary{
+    @apply w-full text-sm bg-primary text-white p-2 rounded my-1 hover:bg-blue-500;
+  }
+}
