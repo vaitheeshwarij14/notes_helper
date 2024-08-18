@@ -7,7 +7,7 @@ import SignUp from './pages/Signup/SignUp';
 const routes = (
   <Router>
     <Routes>
-      <Route path="/Dashboard" exact element={<Home />} /> 
+      <Route path="/dashboard" exact element={<Home />} /> 
       <Route path="/login" exact element={<Login />} />
       <Route path="/signup" exact element={<SignUp />} />
     </Routes>
